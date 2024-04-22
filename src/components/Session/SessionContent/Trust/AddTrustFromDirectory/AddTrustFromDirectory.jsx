@@ -58,3 +58,25 @@ export default function AddTrustFromDirectory(props) {
 AddTrustFromDirectory.propTypes = {
     d: PropTypes.instanceOf(Driver).isRequired,
 };
+{
+  domain: 'xportmoney.com',
+  issuer: 'GAYCVV4CNEPNJ6DK4HGGHLRKNIFKTLOFC4BMVU6JG4WDQ5DVF2UM2JZ5',
+  assets: [
+    {
+      code: 'XPM', 
+      issuer: 'GAYCVV4CNEPNJ6DK4HGGHLRKNIFKTLOFC4BMVU6JG4WDQ5DVF2UM2JZ5', 
+    },
+  ],
+}
+    {
+      baseBuying: {
+        code: 'XPM',
+        issuer: 'GAYCVV4CNEPNJ6DK4HGGHLRKNIFKTLOFC4BMVU6JG4WDQ5DVF2UM2JZ5'
+      },
+      counterSelling: {
+        code: 'XLM',
+        issuer: 'native lumens'
+      }
+    }
+  ]
+}
